@@ -1,17 +1,28 @@
 <nav id="menu">        
 
     <div class="element_menu">
-
         <h3>Titre menu</h3>
-
+	
+	
         <ul>
 
-            <li><a href="Issuer.php">Issuer</a></li>
+            <li><a href="layout.php?page=Issuer.php"> Issuer</a></li>
 
-            <li><a href="Receiver.php">Receiver</a></li>
+            <li><a href="layout.php?page=Receiver.php">Receiver</a></li>
 
-            <li><a href="Secret_Acess.php">SecretAcess</a></li>
+            <li><a href="layout.php?page=Secret_Acess.php">SecretAcess</a></li>
 
+            <li><a href="layout.php?page=home.php">Home</a></li>
+
+            <li><a href="layout.php?page=Session.php">Session</a></li>
+
+            <li><a href="layout.php?page=home.php&disconected=true">Disconected</a></li>
+
+            <li><a href="layout.php?page=cookie.php">Cookie</a></li>
+
+            <li><a href="layout.php?page=file.php">File</a></li>
+
+            <li><a href="layout.php?page=SQLconnect.php">mySQL connection (with PDO)</a></li>
 
         </ul>
 
