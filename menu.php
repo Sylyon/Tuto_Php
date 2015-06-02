@@ -31,6 +31,8 @@
             <li><a href="layout.php?page=SQLinsert.php">mySQL insert (with PDO)</a></li>
 
             <li><a href="layout.php?page=SQLupdate.php">mySQL update (with PDO)</a></li>
+
+            <li><a href="layout.php?page=SQLdelete.php">mySQL delete (with PDO)</a></li>
             
 
 
