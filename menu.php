@@ -33,6 +33,14 @@
             <li><a href="layout.php?page=SQLupdate.php">mySQL update (with PDO)</a></li>
 
             <li><a href="layout.php?page=SQLdelete.php">mySQL delete (with PDO)</a></li>
+
+            <li><a href="layout.php?page=minichat.php"><strong>Mini chat</strong></a></li>
+
+            <li><a href="layout.php?page=SQLfunctions.php">mySQL functions (with PDO)</a></li>
+
+            <li><a href="layout.php?page=SQLdates.php">mySQL date (with PDO)</a></li>
+
+            <li><a href="layout.php?page=minichatV2.php"><strong>Mini chat</strong></a></li>
             
 
 

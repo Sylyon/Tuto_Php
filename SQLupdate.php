@@ -60,7 +60,7 @@
 	//UPDATE
 	if ($name != "")
 	{
-		$selections = $myBDD -> prepare('UPDATE jeux_video SET nom=:name, possesseur=:owner, prix=:prise, console=:hardware, nbre_joueurs_max =:max_player ,commentaires=:comment WHERE ID=:id');
+		$selections = $myBDD -> e('UPDATE jeux_video SET nom=:name, possesseur=:owner, prix=:prise, console=:hardware, nbre_joueurs_max =:max_player ,commentaires=:comment WHERE ID=:id');
 		$selections->execute(array('id'=>$id,'name' => $name,'hardware'=>$console,'owner'=>$owner,'prise'=>$prise,'max_player'=>$max_player,'comment'=>$commentaires));
 		$selections -> closeCursor();
 	}
