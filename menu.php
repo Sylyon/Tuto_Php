@@ -28,6 +28,11 @@
 
             <li><a href="layout.php?page=SQLerror.php">mySQL error (with PDO)</a></li>
 
+            <li><a href="layout.php?page=SQLinsert.php">mySQL insert (with PDO)</a></li>
+
+            <li><a href="layout.php?page=SQLupdate.php">mySQL update (with PDO)</a></li>
+            
+
 
         </ul>
 

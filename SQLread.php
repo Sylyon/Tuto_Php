@@ -40,12 +40,12 @@
 	//Request
 	if ($console == "")
 	{
-		$selections = $myBDD -> prepare('SELECT nom, prix, console FROM jeux_video WHERE prix >= ? AND prix <= ? ORDER BY prix');
+		$selections = $myBDD -> prepare('SELECT nom, prix, console, commentaires FROM jeux_video WHERE prix >= ? AND prix <= ? ORDER BY prix');
 		$selections->execute(array($mini,$maxi));
 	}
 	else
 	{
-		$selections = $myBDD -> prepare('SELECT nom, prix, console FROM jeux_video WHERE console=:console AND prix >= :prix_mini AND prix <= :prix_maxi ORDER BY prix');
+		$selections = $myBDD -> prepare('SELECT nom, prix, console, commentaires FROM jeux_video WHERE console=:console AND prix >= :prix_mini AND prix <= :prix_maxi ORDER BY prix');
 		$selections->execute(array('console' => $console,'prix_mini'=>$mini,'prix_maxi'=>$maxi));
 	}
 
@@ -55,6 +55,7 @@
 			<td><strong>Nom</strong></td>
 			<td><strong>Console</strong></td>
 			<td><strong>Prix</strong></td>
+			<td><strong>Commentaires</strong></td>
 		</tr>
 	<?php
 	while ($aGame = $selections -> fetch())
@@ -64,6 +65,7 @@
 			<td><?php echo $aGame['nom']; ?></td>
 			<td><?php echo $aGame['console']; ?></td>
 			<td><?php echo $aGame['prix']; ?></td>
+			<td><?php echo $aGame['commentaires']; ?></td>
 		</tr>
 		<?php
 	}
