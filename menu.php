@@ -16,13 +16,18 @@
 
             <li><a href="layout.php?page=Session.php">Session</a></li>
 
-            <li><a href="layout.php?page=home.php&disconected=true">Disconected</a></li>
+            <li><a href="layout.php?page=home.php&amp;disconected=true">Disconected</a></li>
 
             <li><a href="layout.php?page=cookie.php">Cookie</a></li>
 
             <li><a href="layout.php?page=file.php">File</a></li>
 
             <li><a href="layout.php?page=SQLconnect.php">mySQL connection (with PDO)</a></li>
+
+            <li><a href="layout.php?page=SQLread.php">mySQL read (with PDO)</a></li>
+
+            <li><a href="layout.php?page=SQLerror.php">mySQL error (with PDO)</a></li>
+
 
         </ul>
 
