@@ -42,8 +42,9 @@
 
             <li><a href="layout.php?page=minichatV2.php"><strong>Mini chat</strong></a></li>
 
-             <li><a href="layout.php?page=miniblog.php"><strong>Mini blog</strong></a></li>
+            <li><a href="layout.php?page=miniblog.php"><strong>Mini blog</strong></a></li>
             
+            <li><a href="layout.php?page=SQLjoint.php">mySQL Jointure (with PDO)</a></li>
 
 
         </ul>
