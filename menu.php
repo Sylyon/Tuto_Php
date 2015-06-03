@@ -52,7 +52,7 @@
 
             <li><a href="image_fus.php">Php fussion imgs and view</a></li>
 
-
+            <li><a href="layout.php?page=regex_match.php">regex match() </a></li>
         </ul>
 
     </div>    
