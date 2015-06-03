@@ -46,6 +46,12 @@
             
             <li><a href="layout.php?page=SQLjoint.php">mySQL Jointure (with PDO)</a></li>
 
+            <li><a href="image_save.php">Php create img and save in file</a></li>
+
+            <li><a href="image_view.php">Php create img and view</a></li>
+
+            <li><a href="image_fus.php">Php fussion imgs and view</a></li>
+
 
         </ul>
 
