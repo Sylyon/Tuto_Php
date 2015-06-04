@@ -57,6 +57,12 @@
             <li><a href="layout.php?page=regex_replace.php">regex replace() PCRE </a></li>
 
             <li><a href="layout.php?page=member.test.php">object test Member.class </a></li>
+
+            <li><a href="layout.php?page=signup.php">Singup</a></li>
+
+            <li><a href="layout.php?page=signin.php">Singin</a></li>
+
+            <li><a href="layout.php?page=signout.php">Singout</a></li>
         </ul>
 
     </div>    
