@@ -52,7 +52,11 @@
 
             <li><a href="image_fus.php">Php fussion imgs and view</a></li>
 
-            <li><a href="layout.php?page=regex_match.php">regex match() </a></li>
+            <li><a href="layout.php?page=regex_match.php">regex match() PCRE </a></li>
+
+            <li><a href="layout.php?page=regex_replace.php">regex replace() PCRE </a></li>
+
+            <li><a href="layout.php?page=member.test.php">object test Member.class </a></li>
         </ul>
 
     </div>    
